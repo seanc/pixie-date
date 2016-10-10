@@ -1,0 +1,33 @@
+{
+  "name": "pixie-date",
+  "description": "Pixie date/time formatter",
+  "version": "0.1.1",
+  "homepage": "https://github.com/seanc/pixie-date",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/pixie-date",
+  "bugs": {
+    "url": "https://github.com/seanc/pixie-date/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pixie"
+  ],
+  "dependencies": {
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {
+    "pixie": "^0.2.2",
+    "tape": "^4.6.2"
+  }
+}
